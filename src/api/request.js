@@ -5,3 +5,6 @@ export const getGameList = () =>
 
 export const getVideoList = () =>
     axios.get('https://www.fastmock.site/mock/477f993fb8b86e1e7fa9aa8ca719a766/bilibili-game/videoinfo')
+
+export const getReserveList = () =>
+    axios.get('https://www.fastmock.site/mock/477f993fb8b86e1e7fa9aa8ca719a766/bilibili-game/reservelist')
